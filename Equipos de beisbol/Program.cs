@@ -63,8 +63,6 @@ namespace Equipos_de_beisbol
 
             foreach (Equipo equipo in equipos)
             {
-                Console.WriteLine("Nombre de jugadores: " +
-                    equipo.Nombre);
                 Console.WriteLine("Equipo: " +
                     equipo.Nombre);
                 Console.WriteLine("Lista de jugadores: ");
@@ -72,6 +70,8 @@ namespace Equipos_de_beisbol
                 {
                     Console.WriteLine("*" +
                        jugador.NombreJug);
+                    Console.WriteLine("" +
+                       jugador.Numero);
                 }
             }
 
