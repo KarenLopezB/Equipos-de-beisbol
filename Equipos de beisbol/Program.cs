@@ -69,9 +69,9 @@ namespace Equipos_de_beisbol
                 foreach (Jugador jugador in equipo.Jugadores)
                 {
                     Console.WriteLine("*" +
-                       jugador.NombreJug);
+                        jugador.NombreJug);
                     Console.WriteLine("" +
-                       jugador.Numero);
+                        jugador.Numero);
                 }
             }
 
